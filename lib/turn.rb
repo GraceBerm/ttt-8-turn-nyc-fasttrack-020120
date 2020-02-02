@@ -38,4 +38,3 @@ def turn(board, index)
   else turn(board, index)
   end
 end
-end
