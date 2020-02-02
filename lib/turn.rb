@@ -32,6 +32,7 @@ def move(board, index, value = "X")
 end
 
 def turn(board, index)
+  binding.pry
   puts "Please enter 1-9:"
   input = gets.strip
   input_to_index(input)
